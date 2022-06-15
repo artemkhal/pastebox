@@ -1,14 +1,14 @@
-package ru.sendel.pastebox;
+package ru.khaliullov.pastebox;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
-import ru.sendel.pastebox.api.responce.PasteboxResponse;
-import ru.sendel.pastebox.exception.NotFoundEntityException;
-import ru.sendel.pastebox.repository.PasteboxEntity;
-import ru.sendel.pastebox.repository.PasteboxRepository;
-import ru.sendel.pastebox.service.PasteboxService;
+import ru.khaliullov.pastebox.api.responce.PasteboxResponse;
+import ru.khaliullov.pastebox.exception.NotFoundEntityException;
+import ru.khaliullov.pastebox.repository.PasteboxEntity;
+import ru.khaliullov.pastebox.repository.PasteboxRepository;
+import ru.khaliullov.pastebox.service.PasteboxService;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;

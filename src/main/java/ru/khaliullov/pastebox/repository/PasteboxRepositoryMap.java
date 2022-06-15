@@ -1,12 +1,10 @@
-package ru.sendel.pastebox.repository;
+package ru.khaliullov.pastebox.repository;
 
 import org.springframework.stereotype.Repository;
-import ru.sendel.pastebox.exception.NotFoundEntityException;
+import ru.khaliullov.pastebox.exception.NotFoundEntityException;
 
 import java.time.LocalDateTime;
-import java.time.ZoneId;
 import java.util.Comparator;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

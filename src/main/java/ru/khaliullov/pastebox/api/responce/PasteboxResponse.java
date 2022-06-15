@@ -1,7 +1,6 @@
-package ru.sendel.pastebox.api.responce;
+package ru.khaliullov.pastebox.api.responce;
 
 import lombok.Data;
-import ru.sendel.pastebox.api.PublicStatus;
 
 @Data
 public class PasteboxResponse {

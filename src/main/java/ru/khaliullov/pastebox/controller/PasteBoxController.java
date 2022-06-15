@@ -1,14 +1,13 @@
-package ru.sendel.pastebox.controller;
+package ru.khaliullov.pastebox.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
-import ru.sendel.pastebox.api.PasteboxRequest;
-import ru.sendel.pastebox.api.responce.PasteboxResponse;
-import ru.sendel.pastebox.api.responce.PasteboxUrlResponse;
-import ru.sendel.pastebox.service.PasteboxService;
+import ru.khaliullov.pastebox.api.PasteboxRequest;
+import ru.khaliullov.pastebox.api.responce.PasteboxResponse;
+import ru.khaliullov.pastebox.api.responce.PasteboxUrlResponse;
+import ru.khaliullov.pastebox.service.PasteboxService;
 
 import java.util.Collection;
-import java.util.Collections;
 
 @RestController
 @RequiredArgsConstructor

@@ -1,4 +1,4 @@
-package ru.sendel.pastebox.api;
+package ru.khaliullov.pastebox.api;
 
 public enum PublicStatus {
     PUBLIC,

@@ -1,4 +1,4 @@
-package ru.sendel.pastebox.api.responce;
+package ru.khaliullov.pastebox.api.responce;
 
 import lombok.Data;
 import lombok.RequiredArgsConstructor;

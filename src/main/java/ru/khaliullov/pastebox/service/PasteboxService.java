@@ -1,8 +1,8 @@
-package ru.sendel.pastebox.service;
+package ru.khaliullov.pastebox.service;
 
-import ru.sendel.pastebox.api.PasteboxRequest;
-import ru.sendel.pastebox.api.responce.PasteboxResponse;
-import ru.sendel.pastebox.api.responce.PasteboxUrlResponse;
+import ru.khaliullov.pastebox.api.responce.PasteboxResponse;
+import ru.khaliullov.pastebox.api.responce.PasteboxUrlResponse;
+import ru.khaliullov.pastebox.api.PasteboxRequest;
 
 import java.util.List;
 

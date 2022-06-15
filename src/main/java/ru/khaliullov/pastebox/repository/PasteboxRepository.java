@@ -1,4 +1,4 @@
-package ru.sendel.pastebox.repository;
+package ru.khaliullov.pastebox.repository;
 
 import java.util.List;
 

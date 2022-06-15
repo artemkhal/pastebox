@@ -1,20 +1,18 @@
-package ru.sendel.pastebox.service;
+package ru.khaliullov.pastebox.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Service;
-import ru.sendel.pastebox.api.PasteboxRequest;
-import ru.sendel.pastebox.api.PublicStatus;
-import ru.sendel.pastebox.api.responce.PasteboxResponse;
-import ru.sendel.pastebox.api.responce.PasteboxUrlResponse;
-import ru.sendel.pastebox.repository.PasteboxEntity;
-import ru.sendel.pastebox.repository.PasteboxRepository;
+import ru.khaliullov.pastebox.api.responce.PasteboxResponse;
+import ru.khaliullov.pastebox.api.responce.PasteboxUrlResponse;
+import ru.khaliullov.pastebox.repository.PasteboxEntity;
+import ru.khaliullov.pastebox.repository.PasteboxRepository;
+import ru.khaliullov.pastebox.api.PasteboxRequest;
+import ru.khaliullov.pastebox.api.PublicStatus;
 
-import javax.websocket.server.ServerEndpoint;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.atomic.AtomicLong;
 import java.util.stream.Collectors;
 
 @Service

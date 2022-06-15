@@ -1,4 +1,4 @@
-package ru.sendel.pastebox;
+package ru.khaliullov.pastebox;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
